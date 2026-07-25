@@ -1,0 +1,352 @@
+{
+  "dances": [
+    {
+      "slug": "electric-slide",
+      "title": "Electric Slide",
+      "music": "Electric Boogie - Marcia Griffiths",
+      "choreographer": "Ric Silver",
+      "count": 18,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "grapevine", "label": "Grapevine Right, touch left" },
+        { "counts": "5-8", "moveId": "grapevine", "label": "Grapevine Left, touch right" },
+        { "counts": "9-12", "moveId": "step", "label": "Walk back Right, Left, Right, touch left" },
+        { "counts": "13-14", "moveId": "step", "label": "Step forward Left, touch right together" },
+        { "counts": "15-16", "moveId": "rock-step", "label": "Rock back Right, recover Left" },
+        { "counts": "17-18", "moveId": "pivot-turn", "label": "1/4 turn left, step Right, touch left" }
+      ]
+    },
+    {
+      "slug": "cupid-shuffle",
+      "title": "Cupid Shuffle",
+      "music": "Cupid Shuffle - Cupid",
+      "choreographer": "Bryson Bernard (Cupid)",
+      "count": 32,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-8", "moveId": "vine-touch", "label": "Side step right x4 (\"to the right\")" },
+        { "counts": "9-16", "moveId": "vine-touch", "label": "Side step left x4 (\"to the left\")" },
+        { "counts": "17-24", "moveId": "kick-ball-change", "label": "Kick right x2, kick left x2 (\"now kick\")" },
+        { "counts": "25-32", "moveId": "step", "label": "Walk backward x4, turn 1/4 (\"now walk it by yourself\")" }
+      ]
+    },
+    {
+      "slug": "cotton-eyed-joe",
+      "title": "Cotton Eyed Joe",
+      "music": "Cotton Eye Joe - Rednex",
+      "choreographer": "Traditional",
+      "count": 32,
+      "wall": 2,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "heel-grind", "label": "Heel grind right, heel grind left" },
+        { "counts": "5-8", "moveId": "toe-strut", "label": "Toe strut right, toe strut left" },
+        { "counts": "9-12", "moveId": "kick-ball-change", "label": "Kick ball change right, left" },
+        { "counts": "13-16", "moveId": "heel-grind", "label": "Repeat heel grinds" },
+        { "counts": "17-32", "moveId": "rock-step", "label": "Run/gallop backward 16 counts with 1/4 turn" }
+      ]
+    },
+    {
+      "slug": "boot-scootin-boogie",
+      "title": "Boot Scootin' Boogie",
+      "music": "Boot Scootin' Boogie - Brooks & Dunn",
+      "choreographer": "Bill Bader",
+      "count": 32,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "grapevine", "label": "Vine right with diagonal heel touch" },
+        { "counts": "5-8", "moveId": "grapevine", "label": "Vine left with diagonal heel touch" },
+        { "counts": "9-12", "moveId": "step", "label": "Step-together, step-together" },
+        { "counts": "13-16", "moveId": "swivel", "label": "Swivel heels x3, hold" },
+        { "counts": "17-20", "moveId": "hook", "label": "Hook/hitch right knee, stomp" },
+        { "counts": "21-24", "moveId": "shuffle-triple", "label": "Forward shuffle right, left" },
+        { "counts": "25-28", "moveId": "coaster-step", "label": "Coaster step" },
+        { "counts": "29-32", "moveId": "pivot-turn", "label": "1/4 turn pivot" }
+      ]
+    },
+    {
+      "slug": "tush-push",
+      "title": "Tush Push",
+      "music": "He Thinks He's James Dean - Karen Staley (also danced to Chattahoochee)",
+      "choreographer": "Jim Ferrazzano",
+      "count": 40,
+      "wall": 4,
+      "level": "Beginner/Intermediate",
+      "sequence": [
+        { "counts": "1-4", "moveId": "heel-jack", "label": "Heel taps right x2, step together" },
+        { "counts": "5-8", "moveId": "hip-bump", "label": "Hip bumps right x2, left x2" },
+        { "counts": "9-12", "moveId": "shuffle-triple", "label": "Forward shuffle right" },
+        { "counts": "13-16", "moveId": "rock-step", "label": "Rock step forward left, recover" },
+        { "counts": "17-24", "moveId": "coaster-step", "label": "Coaster step, kick ball change" },
+        { "counts": "25-32", "moveId": "jazz-box", "label": "Jazz box" },
+        { "counts": "33-36", "moveId": "pivot-turn", "label": "1/4 turn left" },
+        { "counts": "37-40", "moveId": "stomp", "label": "Stomp right, clap" }
+      ]
+    },
+    {
+      "slug": "wobble",
+      "title": "Wobble",
+      "music": "Wobble - V.I.C.",
+      "choreographer": "V.I.C. / DJ Silva",
+      "count": 32,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-2", "moveId": "stomp", "label": "Stomp right, stomp left" },
+        { "counts": "3-6", "moveId": "hip-bump", "label": "Wobble hips x4" },
+        { "counts": "7-10", "moveId": "hip-bump", "label": "Bend knees, hands on knees, wobble" },
+        { "counts": "11-14", "moveId": "step", "label": "Walk it out backward x4" },
+        { "counts": "15-16", "moveId": "arm-clap", "label": "Clap" },
+        { "counts": "17-20", "moveId": "grapevine", "label": "Vine right" },
+        { "counts": "21-24", "moveId": "grapevine", "label": "Vine left" },
+        { "counts": "25-32", "moveId": "pivot-turn", "label": "1/4 turn and repeat" }
+      ]
+    },
+    {
+      "slug": "watermelon-crawl",
+      "title": "Watermelon Crawl",
+      "music": "Watermelon Crawl - Tracy Byrd",
+      "choreographer": "Sue Lipscomb",
+      "count": 40,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "toe-strut", "label": "Toe, heel, shuffle right" },
+        { "counts": "5-8", "moveId": "toe-strut", "label": "Toe, heel, shuffle left" },
+        { "counts": "9-16", "moveId": "charleston", "label": "Charleston step x2" },
+        { "counts": "17-20", "moveId": "grapevine", "label": "Vine right, touch left" },
+        { "counts": "21-24", "moveId": "grapevine", "label": "Vine left with 1/4 turn, touch right" },
+        { "counts": "25-28", "moveId": "step", "label": "Step diagonal forward, slide together, clap" },
+        { "counts": "29-32", "moveId": "step", "label": "Step diagonal back, slide together, clap" }
+      ]
+    },
+    {
+      "slug": "achy-breaky-heart",
+      "title": "Achy Breaky Heart (Heartbreaker)",
+      "music": "Achy Breaky Heart - Billy Ray Cyrus",
+      "choreographer": "Melanie Greenwood",
+      "count": 32,
+      "wall": 2,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "grapevine", "label": "Vine right with hitch" },
+        { "counts": "5-8", "moveId": "grapevine", "label": "Vine left with hitch" },
+        { "counts": "9-12", "moveId": "heel-jack", "label": "Heel jacks x2" },
+        { "counts": "13-16", "moveId": "kick-ball-change", "label": "Kick ball change x2" },
+        { "counts": "17-24", "moveId": "jazz-box", "label": "Jazz box" },
+        { "counts": "25-32", "moveId": "step", "label": "Walk forward x2, 1/4 turn" }
+      ]
+    },
+    {
+      "slug": "slappin-leather",
+      "title": "Slappin' Leather",
+      "music": "Tulsa Time - Don Williams",
+      "choreographer": "Gayle Brandon",
+      "count": 36,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "heel-grind", "label": "Pigeon-toe heel splits" },
+        { "counts": "5-12", "moveId": "side-rock", "label": "Side steps right, left" },
+        { "counts": "13-16", "moveId": "toe-strut", "label": "Floor taps" },
+        { "counts": "17-24", "moveId": "hook", "label": "Slapping leather hooks x4" },
+        { "counts": "25-28", "moveId": "touch-point", "label": "Touch forward, touch side" },
+        { "counts": "29-32", "moveId": "jazz-box", "label": "Jazz box" },
+        { "counts": "33-36", "moveId": "stomp", "label": "Stomp and hold" }
+      ]
+    },
+    {
+      "slug": "cowboy-boogie",
+      "title": "Cowboy Boogie",
+      "music": "Any 4/4 country tune",
+      "choreographer": "Kelly Burkhardt",
+      "count": 32,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "grapevine", "label": "Vine right, hop and hitch left" },
+        { "counts": "5-8", "moveId": "grapevine", "label": "Vine left, hop and hitch right" },
+        { "counts": "9-12", "moveId": "step", "label": "Step-hop forward right, left" },
+        { "counts": "13-16", "moveId": "step", "label": "Step back right, left, right, hop hitch" },
+        { "counts": "17-24", "moveId": "hip-bump", "label": "Hip boogies x4" },
+        { "counts": "25-32", "moveId": "pivot-turn", "label": "1/4 turn and repeat" }
+      ]
+    },
+    {
+      "slug": "copperhead-road",
+      "title": "Copperhead Road",
+      "music": "Copperhead Road - Steve Earle",
+      "choreographer": "Steve Smith",
+      "count": 24,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-5", "moveId": "heel-jack", "label": "Heel, step, heel, step, toe" },
+        { "counts": "6-10", "moveId": "grapevine", "label": "Grapevine right with 1/4 turn and hitch" },
+        { "counts": "11-14", "moveId": "scuff-brush", "label": "Grapevine left with heel slap" },
+        { "counts": "15-18", "moveId": "scuff-brush", "label": "Grapevine right with heel slap" },
+        { "counts": "19-24", "moveId": "stomp", "label": "Stomps and hold" }
+      ]
+    },
+    {
+      "slug": "redneck-girl",
+      "title": "Redneck Girl",
+      "music": "Redneck Girl - The Bellamy Brothers",
+      "choreographer": "Traditional",
+      "count": 32,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "grapevine", "label": "Vine right, touch left" },
+        { "counts": "5-8", "moveId": "grapevine", "label": "Vine left, touch right" },
+        { "counts": "9-12", "moveId": "kick-ball-change", "label": "Kick ball change x2" },
+        { "counts": "13-16", "moveId": "hip-bump", "label": "Hip bumps right, left" },
+        { "counts": "17-24", "moveId": "jazz-box", "label": "Jazz box" },
+        { "counts": "25-28", "moveId": "stomp", "label": "Stomp right" },
+        { "counts": "29-32", "moveId": "pivot-turn", "label": "1/4 turn and repeat" }
+      ]
+    },
+    {
+      "slug": "ymca",
+      "title": "Y.M.C.A.",
+      "music": "Y.M.C.A. - Village People",
+      "choreographer": "Traditional / Village People",
+      "count": 32,
+      "wall": 1,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "step", "label": "Step-touch right, left (basic groove)" },
+        { "counts": "5-8", "moveId": "step", "label": "Step-touch right, left" },
+        { "counts": "9-24", "moveId": "ymca-arms", "label": "Spell Y - M - C - A with your arms" },
+        { "counts": "25-32", "moveId": "hip-bump", "label": "Hip bumps and groove to the chorus" }
+      ]
+    },
+    {
+      "slug": "cha-cha-slide",
+      "title": "Cha Cha Slide",
+      "music": "Cha Cha Slide - DJ Casper (Mr. C The Slide Man)",
+      "choreographer": "Willie Perry Jr. (DJ Casper)",
+      "count": 64,
+      "wall": 1,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "grapevine", "label": "Slide left (vine left)" },
+        { "counts": "5-8", "moveId": "grapevine", "label": "Slide right (vine right)" },
+        { "counts": "9-16", "moveId": "shuffle-triple", "label": "Cha cha now y'all" },
+        { "counts": "17-20", "moveId": "cross-shuffle", "label": "Criss cross" },
+        { "counts": "21-24", "moveId": "shuffle-triple", "label": "Cha cha real smooth" },
+        { "counts": "25-28", "moveId": "touch-point", "label": "Freeze, then everybody clap" },
+        { "counts": "29-36", "moveId": "pivot-turn", "label": "Reverse, reverse (1/2 turn)" },
+        { "counts": "37-40", "moveId": "charleston", "label": "Charlie Brown" },
+        { "counts": "41-44", "moveId": "stomp", "label": "Stomp, stomp, hop" },
+        { "counts": "45-48", "moveId": "chug", "label": "One hop this time" },
+        { "counts": "49-56", "moveId": "shuffle-triple", "label": "Cha cha now y'all" },
+        { "counts": "57-64", "moveId": "hip-bump", "label": "How low can you go, bring it back up" }
+      ]
+    },
+    {
+      "slug": "16-steps",
+      "title": "16 Steps",
+      "music": "Any classic disco track",
+      "choreographer": "Traditional",
+      "count": 16,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "vine-touch", "label": "Side together side touch right" },
+        { "counts": "5-8", "moveId": "vine-touch", "label": "Side together side touch left" },
+        { "counts": "9-12", "moveId": "heel-jack", "label": "Heel jacks x2" },
+        { "counts": "13-14", "moveId": "toe-strut", "label": "Toe struts x2" },
+        { "counts": "15-16", "moveId": "stomp", "label": "Stomp, stomp" }
+      ]
+    },
+    {
+      "slug": "tequila",
+      "title": "Tequila",
+      "music": "Tequila - Dan + Shay",
+      "choreographer": "Various regional versions",
+      "count": 32,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "grapevine", "label": "Vine right, touch left" },
+        { "counts": "5-8", "moveId": "grapevine", "label": "Vine left, touch right" },
+        { "counts": "9-16", "moveId": "hip-bump", "label": "Hip bumps right x2, left x2" },
+        { "counts": "17-20", "moveId": "touch-point", "label": "Hold and point (\"tequila!\")" },
+        { "counts": "21-28", "moveId": "jazz-box", "label": "Jazz box" },
+        { "counts": "29-32", "moveId": "pivot-turn", "label": "1/4 turn and repeat" }
+      ]
+    },
+    {
+      "slug": "footloose",
+      "title": "Footloose",
+      "music": "Footloose - Kenny Loggins",
+      "choreographer": "Various",
+      "count": 32,
+      "wall": 4,
+      "level": "Beginner/Intermediate",
+      "sequence": [
+        { "counts": "1-4", "moveId": "kick-ball-change", "label": "Kick ball change x2" },
+        { "counts": "5-12", "moveId": "jazz-box", "label": "Jazz box" },
+        { "counts": "13-16", "moveId": "grapevine", "label": "Vine right" },
+        { "counts": "17-20", "moveId": "grapevine", "label": "Vine left" },
+        { "counts": "21-24", "moveId": "rock-step", "label": "Rock step forward, recover" },
+        { "counts": "25-28", "moveId": "coaster-step", "label": "Coaster step" },
+        { "counts": "29-32", "moveId": "pivot-turn", "label": "1/4 turn pivot" }
+      ]
+    },
+    {
+      "slug": "walk-the-line",
+      "title": "Walk the Line",
+      "music": "You Keep Me Hangin' On - Reba McEntire",
+      "choreographer": "Sandi Larkins",
+      "count": 26,
+      "wall": 4,
+      "level": "Intermediate",
+      "sequence": [
+        { "counts": "1-4", "moveId": "shuffle-triple", "label": "Shuffle right, shuffle left" },
+        { "counts": "5-8", "moveId": "cross-shuffle", "label": "Cross shuffle" },
+        { "counts": "9-14", "moveId": "pivot-turn", "label": "Three half turns" },
+        { "counts": "15-16", "moveId": "scuff-brush", "label": "Kick" },
+        { "counts": "17-18", "moveId": "coaster-step", "label": "Right coaster step" },
+        { "counts": "19-20", "moveId": "step", "label": "Step left, touch right" },
+        { "counts": "21-24", "moveId": "weave", "label": "Weave left" },
+        { "counts": "25-26", "moveId": "touch-point", "label": "Touch left together" }
+      ]
+    },
+    {
+      "slug": "boogie-woogie",
+      "title": "Boogie Woogie",
+      "music": "Any classic boogie track",
+      "choreographer": "Traditional",
+      "count": 32,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-4", "moveId": "heel-jack", "label": "Heel-toe right, heel-toe left" },
+        { "counts": "5-12", "moveId": "jazz-box", "label": "Jazz box" },
+        { "counts": "13-16", "moveId": "kick-ball-change", "label": "Kick ball change x2" },
+        { "counts": "17-20", "moveId": "grapevine", "label": "Vine right" },
+        { "counts": "21-24", "moveId": "grapevine", "label": "Vine left" },
+        { "counts": "25-32", "moveId": "stomp", "label": "Stomps and hold" }
+      ]
+    },
+    {
+      "slug": "macarena",
+      "title": "Macarena",
+      "music": "Macarena - Los del Río",
+      "choreographer": "Los del Río / Antonio Romero",
+      "count": 16,
+      "wall": 1,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-12", "moveId": "macarena-arms", "label": "Arm sequence: palms down, palms up, cross to shoulders, behind head, hands to hips" },
+        { "counts": "13-14", "moveId": "hip-bump", "label": "Hip shimmy" },
+        { "counts": "15-16", "moveId": "jump-turn", "label": "Quarter turn jump" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+:root {
+  --bg: #191212;
+  --bg-alt: #241a17;
+  --card: #2c201c;
+  --accent: #d97c3f;
+  --accent-2: #c94f4f;
+  --text: #f3e9df;
+  --text-dim: #c9b8ac;
+  --border: #3d2e28;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #3a211a, #1c1211);
+  border-bottom: 3px solid var(--accent);
+  padding: 36px 0 28px;
+}
+
+.site-header h1 {
+  margin: 0 0 6px;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.tagline {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 1rem;
+}
+
+main {
+  padding: 28px 0 60px;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+#search:focus {
+  outline: 2px solid var(--accent);
+}
+
+.dance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.dance-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  text-align: left;
+}
+
+.dance-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+.dance-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+
+.dance-card .meta {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.badge {
+  display: inline-block;
+  background: var(--accent-2);
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-top: 8px;
+}
+
+.hidden { display: none !important; }
+
+.back-btn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 8px 0;
+  margin-bottom: 12px;
+}
+
+.back-btn:hover { text-decoration: underline; }
+
+#dance-detail h2 {
+  margin: 0 0 4px;
+  font-size: 1.7rem;
+}
+
+#dance-detail .detail-meta {
+  color: var(--text-dim);
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.move-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.move-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.move-row:hover {
+  border-color: var(--accent);
+  background: #33251f;
+}
+
+.move-row .count-tag {
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: var(--accent);
+  min-width: 56px;
+}
+
+.move-row .move-label {
+  flex: 1;
+  font-size: 0.98rem;
+}
+
+.move-row .play-icon {
+  color: var(--accent-2);
+  font-size: 0.85rem;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+}
+
+.modal-card {
+  position: relative;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 640px;
+  width: 92%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.6rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.modal-close:hover { color: var(--text); }
+
+#modal-title {
+  margin: 0 24px 8px 0;
+}
+
+#modal-desc {
+  color: var(--text-dim);
+  margin-bottom: 16px;
+}
+
+.video-frame {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#modal-yt-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#modal-yt-link:hover { text-decoration: underline; }
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 20px 0 40px;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+}

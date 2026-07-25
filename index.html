@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Line Stepper — Learn 20 Classic Line Dances</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <h1>🤠 Line Stepper</h1>
+    <p class="tagline">20 classic line dances. Click a dance to see every move. Click a move to watch how it's done.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="dance-list-view">
+    <div class="toolbar">
+      <input id="search" type="text" placeholder="Search dances…" autocomplete="off" />
+    </div>
+    <div id="dance-grid" class="dance-grid"></div>
+  </section>
+
+  <section id="dance-detail-view" class="hidden">
+    <button id="back-btn" class="back-btn">&larr; All dances</button>
+    <div id="dance-detail"></div>
+  </section>
+
+</main>
+
+<div id="move-modal" class="modal hidden">
+  <div class="modal-backdrop"></div>
+  <div class="modal-card">
+    <button id="modal-close" class="modal-close">&times;</button>
+    <h3 id="modal-title"></h3>
+    <p id="modal-desc"></p>
+    <div class="video-frame">
+      <iframe id="modal-video" width="100%" height="100%" src="" title="Move demo"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <a id="modal-yt-link" href="#" target="_blank" rel="noopener">Open on YouTube ↗</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Step sequences are simplified reference guides compiled from published step sheets and standard published choreography — they can vary a bit by instructor or region. This is a test build.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
