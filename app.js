@@ -14,6 +14,8 @@
   const modalVideo = el('#modal-video');
   const modalYtLink = el('#modal-yt-link');
   const modalClose = el('#modal-close');
+  const modalDiagram = el('#modal-diagram');
+  const modalDiagramImg = el('#modal-diagram-img');
 
   async function loadData() {
     const [dancesRes, movesRes] = await Promise.all([
@@ -52,10 +54,11 @@
 
     const rows = dance.sequence.map((step) => {
       const move = state.moves[step.moveId];
+      const diagramDot = move && move.diagram ? '<span class="diagram-dot" title="Diagram available"></span>' : '';
       return `
         <li class="move-row" data-move-id="${step.moveId}">
           <span class="count-tag">${step.counts}</span>
-          <span class="move-label">${step.label}</span>
+          <span class="move-label">${step.label}${diagramDot}</span>
           <span class="play-icon">▶ watch</span>
         </li>
       `;
@@ -90,6 +93,13 @@
     const start = move.video.start || 0;
     modalVideo.src = `https://www.youtube.com/embed/${move.video.id}?start=${start}&autoplay=1`;
     modalYtLink.href = `https://www.youtube.com/watch?v=${move.video.id}&t=${start}s`;
+    if (move.diagram) {
+      modalDiagramImg.src = move.diagram;
+      modalDiagram.classList.remove('hidden');
+    } else {
+      modalDiagram.classList.add('hidden');
+      modalDiagramImg.src = '';
+    }
     modal.classList.remove('hidden');
   }
 
