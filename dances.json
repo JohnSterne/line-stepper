@@ -347,6 +347,29 @@
         { "counts": "13-14", "moveId": "hip-bump", "label": "Hip shimmy" },
         { "counts": "15-16", "moveId": "jump-turn", "label": "Quarter turn jump" }
       ]
+    },
+    {
+      "slug": "choosin-texas",
+      "title": "Choosin' Texas",
+      "music": "Choosin' Texas - Ella Langley",
+      "choreographer": "Nidhi Risi",
+      "count": 24,
+      "wall": 4,
+      "level": "Beginner",
+      "sequence": [
+        { "counts": "1-2", "moveId": "step", "label": "Step right to right side, step left beside right" },
+        { "counts": "3&4", "moveId": "shuffle-triple", "label": "Shuffle forward right, left, right" },
+        { "counts": "5-6", "moveId": "step", "label": "Step left to left side, step right beside left" },
+        { "counts": "7&8", "moveId": "shuffle-triple", "label": "Shuffle back left, right, left" },
+        { "counts": "9-10", "moveId": "rock-step", "label": "Rock back right, recover left" },
+        { "counts": "11&12", "moveId": "shuffle-triple", "label": "Shuffle right, left, right with 1/2 turn left (6:00)" },
+        { "counts": "13-14", "moveId": "rock-step", "label": "Rock back left, recover right" },
+        { "counts": "15&16", "moveId": "shuffle-triple", "label": "Shuffle left, right, left with 1/2 turn right (12:00)" },
+        { "counts": "17-18", "moveId": "hook", "label": "Step back right, hook left in front of right" },
+        { "counts": "19&20", "moveId": "shuffle-triple", "label": "Shuffle forward left, right, left" },
+        { "counts": "21-22", "moveId": "skate", "label": "Skate right, skate left" },
+        { "counts": "23-24", "moveId": "rock-step", "label": "Rock forward right, recover left" }
+      ]
     }
   ]
 }
