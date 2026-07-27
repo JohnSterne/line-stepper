@@ -4,14 +4,26 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Line Stepper — Learn 20 Classic Line Dances</title>
-<link rel="stylesheet" href="style.css?v=3" />
+<link rel="stylesheet" href="style.css?v=4" />
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
 
 <header class="site-header">
-  <div class="wrap">
-    <h1>🤠 Line Stepper</h1>
-    <p class="tagline">20 classic line dances. Click a dance to see every move. Click a move to watch how it's done.</p>
+  <div class="wrap header-row">
+    <div>
+      <h1>🤠 Line Stepper</h1>
+      <p class="tagline">20 classic line dances. Click a dance to see every move. Click a move to watch how it's done.</p>
+    </div>
+    <div id="auth-bar" class="auth-bar">
+      <button id="auth-open-btn" class="auth-btn">Log in / Sign up</button>
+      <div id="auth-account" class="auth-account hidden">
+        <span id="auth-email" class="auth-email"></span>
+        <button id="nav-my-dances" class="link-btn">My Dances</button>
+        <button id="nav-my-pages" class="link-btn">My Pages</button>
+        <button id="logout-btn" class="link-btn">Log out</button>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -25,8 +37,35 @@
   </section>
 
   <section id="dance-detail-view" class="hidden">
-    <button id="back-btn" class="back-btn">&larr; All dances</button>
+    <button class="back-btn" data-back="list">&larr; All dances</button>
     <div id="dance-detail"></div>
+  </section>
+
+  <section id="my-dances-view" class="hidden">
+    <button class="back-btn" data-back="list">&larr; All dances</button>
+    <h2>My Dances</h2>
+    <div id="my-dances-grid" class="dance-grid"></div>
+    <p id="my-dances-empty" class="empty-note hidden">No saved dances yet — open a dance and hit ☆ Save.</p>
+  </section>
+
+  <section id="pages-view" class="hidden">
+    <button class="back-btn" data-back="list">&larr; All dances</button>
+    <div class="pages-header">
+      <h2>My Pages</h2>
+      <button id="new-page-btn" class="auth-btn">+ New page</button>
+    </div>
+    <div id="pages-grid" class="pages-grid"></div>
+    <p id="pages-empty" class="empty-note hidden">No custom pages yet. Create one, then add dances to it from any dance's detail view.</p>
+  </section>
+
+  <section id="page-detail-view" class="hidden">
+    <button class="back-btn" data-back="pages">&larr; My Pages</button>
+    <div class="pages-header">
+      <h2 id="page-detail-title"></h2>
+      <button id="delete-page-btn" class="link-btn danger">Delete page</button>
+    </div>
+    <div id="page-detail-grid" class="dance-grid"></div>
+    <p id="page-detail-empty" class="empty-note hidden">This page is empty. Add dances to it from any dance's detail view.</p>
   </section>
 
 </main>
@@ -52,6 +91,39 @@
       </div>
     </div>
     <a id="modal-yt-link" href="#" target="_blank" rel="noopener">Open on YouTube ↗</a>
+  </div>
+</div>
+
+<div id="auth-modal" class="modal hidden">
+  <div class="modal-backdrop"></div>
+  <div class="modal-card auth-modal-card">
+    <button id="auth-modal-close" class="modal-close">&times;</button>
+    <div class="auth-tabs">
+      <button id="auth-tab-login" class="auth-tab active">Log in</button>
+      <button id="auth-tab-signup" class="auth-tab">Sign up</button>
+    </div>
+    <form id="auth-form">
+      <label class="field-label" for="auth-email-input">Email</label>
+      <input id="auth-email-input" class="field-input" type="email" autocomplete="email" required />
+      <label class="field-label" for="auth-password-input">Password</label>
+      <input id="auth-password-input" class="field-input" type="password" autocomplete="current-password" required minlength="6" />
+      <p id="auth-error" class="auth-error hidden"></p>
+      <button id="auth-submit" type="submit" class="auth-btn auth-submit">Log in</button>
+    </form>
+  </div>
+</div>
+
+<div id="page-modal" class="modal hidden">
+  <div class="modal-backdrop"></div>
+  <div class="modal-card auth-modal-card">
+    <button id="page-modal-close" class="modal-close">&times;</button>
+    <h3>New page</h3>
+    <form id="page-form">
+      <label class="field-label" for="page-name-input">Page name</label>
+      <input id="page-name-input" class="field-input" type="text" placeholder="e.g. Wedding playlist" required />
+      <p id="page-error" class="auth-error hidden"></p>
+      <button type="submit" class="auth-btn auth-submit">Create page</button>
+    </form>
   </div>
 </div>
 
