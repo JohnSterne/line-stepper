@@ -399,6 +399,420 @@
         "start": 90,
         "title": "Macarena - the closing hip turn"
       }
+    },
+    {
+      "id": "skate",
+      "name": "Skate",
+      "description": "A small diagonal forward step, gliding onto one foot like a skater pushing off, then repeating onto the other foot.",
+      "video": {
+        "id": "U0aCyve5fp8",
+        "start": 0,
+        "title": "Line dance steps for beginners - SKATE"
+      }
+    }
+  ]
+}
+{
+  "moves": [
+    {
+      "id": "grapevine",
+      "name": "Grapevine (Vine)",
+      "description": "Step to the side, cross the other foot behind, step to the side again, then tap/touch the first foot in. 4 counts, can go right or left.",
+      "video": {
+        "id": "WGrIM2bjJIk",
+        "start": 0,
+        "title": "Grapevines, Basic Right & Left"
+      },
+      "diagram": "diagrams/grapevine.svg"
+    },
+    {
+      "id": "rolling-grapevine",
+      "name": "Rolling Grapevine (Rolling Vine)",
+      "description": "A grapevine with two 1/4 turns added, so you travel while spinning a half turn over 4 counts.",
+      "video": {
+        "id": "3JpSfIhhSW4",
+        "start": 0,
+        "title": "Rolling Vine demonstration"
+      }
+    },
+    {
+      "id": "vine-touch",
+      "name": "Side Together, Side Touch",
+      "description": "Easier alternative to a grapevine: step side, step together, step side again, touch. Travels the same direction in 4 counts.",
+      "video": {
+        "id": "WGrIM2bjJIk",
+        "start": 0,
+        "title": "Basic side steps"
+      },
+      "diagram": "diagrams/vine-touch.svg"
+    },
+    {
+      "id": "coaster-step",
+      "name": "Coaster Step",
+      "description": "Step back, step the other foot together, step forward. 3 steps done quickly across 2 counts (back-together-forward).",
+      "video": {
+        "id": "04AiHvILc0g",
+        "start": 0,
+        "title": "Coaster Step Line Dance (how to do)"
+      },
+      "diagram": "diagrams/coaster-step.svg"
+    },
+    {
+      "id": "kick-ball-change",
+      "name": "Kick Ball Change",
+      "description": "Kick one foot forward, step down on the ball of that foot, change your weight back to the other foot. Classic syncopated 2-count step.",
+      "video": {
+        "id": "7zR_-zZdQ-4",
+        "start": 0,
+        "title": "Line Dance 102 - Kick, Ball, Change"
+      },
+      "diagram": "diagrams/kick-ball-change.svg"
+    },
+    {
+      "id": "jazz-box",
+      "name": "Jazz Box (Box Step)",
+      "description": "Cross one foot over the other, step back with the second foot, step the first foot together, cross the second foot over. Traces a box on the floor.",
+      "video": {
+        "id": "aO0w30RmdQs",
+        "start": 0,
+        "title": "Jazz Box basic demonstration"
+      },
+      "diagram": "diagrams/jazz-box.svg"
+    },
+    {
+      "id": "rock-step",
+      "name": "Rock Step",
+      "description": "Step forward (or side) shifting your weight, then rock your weight back to the other foot in place.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 780,
+        "title": "Gail Eaton - Line Dance Basic Steps (Rock Step section)"
+      },
+      "diagram": "diagrams/rock-step.svg"
+    },
+    {
+      "id": "rocking-chair",
+      "name": "Rocking Chair",
+      "description": "Two rock steps combined: rock forward, recover back, rock back, recover forward, giving a rocking-chair feel.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 780,
+        "title": "Gail Eaton - Rocking Chair"
+      },
+      "diagram": "diagrams/rocking-chair.svg"
+    },
+    {
+      "id": "sailor-step",
+      "name": "Sailor Step",
+      "description": "Cross-step behind, step out with the other foot, step out again with the first foot. A 3-count 'drunken sailor' stagger.",
+      "video": {
+        "id": "5h2zyUwdV3M",
+        "start": 0,
+        "title": "Kari - Sailor Step breakdown"
+      },
+      "diagram": "diagrams/sailor-step.svg"
+    },
+    {
+      "id": "sailor-turn",
+      "name": "Sailor Turn (Turning Sailor)",
+      "description": "A sailor step with a 1/4 turn added as you finish the out-out.",
+      "video": {
+        "id": "5h2zyUwdV3M",
+        "start": 147,
+        "title": "Turning Sailor Step"
+      }
+    },
+    {
+      "id": "charleston",
+      "name": "Charleston Step",
+      "description": "Step forward and touch, touch back, touch toe back, step forward. A swinging, syncopated 4-count step.",
+      "video": {
+        "id": "dYZVpoF_xi0",
+        "start": 0,
+        "title": "Robert Royston - Charleston Step"
+      },
+      "diagram": "diagrams/charleston.svg"
+    },
+    {
+      "id": "monterey-turn",
+      "name": "Monterey Turn",
+      "description": "Point toe to the side, pivot a 1/4 or 1/2 turn bringing feet together, point the other toe to the side, step together.",
+      "video": {
+        "id": "JkHKtlTutKY",
+        "start": 0,
+        "title": "Monterey Turn breakdown"
+      },
+      "diagram": "diagrams/monterey-turn.svg"
+    },
+    {
+      "id": "hook",
+      "name": "Hook",
+      "description": "Bend one knee and cross it in the air in front of (or behind) the other knee. Featured heavily in Slappin' Leather.",
+      "video": {
+        "id": "aFyOaX5Pr4g",
+        "start": 0,
+        "title": "Hook step - Slappin' Leather"
+      },
+      "diagram": "diagrams/hook.svg"
+    },
+    {
+      "id": "heel-jack",
+      "name": "Heel Jack",
+      "description": "Tap your heel out in front of you, then bring it back. Often chained into a grapevine.",
+      "video": {
+        "id": "8U_sCBj0Opg",
+        "start": 0,
+        "title": "Heel Jack demonstration"
+      },
+      "diagram": "diagrams/heel-jack.svg"
+    },
+    {
+      "id": "heel-strut",
+      "name": "Heel Strut",
+      "description": "A dramatic 2-count walk: tap your heel out front (heel jack), then drop your full foot down to complete the step.",
+      "video": {
+        "id": "fQSEfZ3NmGk",
+        "start": 0,
+        "title": "Heel Strut demonstration"
+      }
+    },
+    {
+      "id": "toe-strut",
+      "name": "Toe Strut",
+      "description": "Dig your toe into the floor, then drop your heel down without lifting the toe.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 600,
+        "title": "Gail Eaton - Toe Strut"
+      },
+      "diagram": "diagrams/toe-strut.svg"
+    },
+    {
+      "id": "apple-jacks",
+      "name": "Apple Jacks",
+      "description": "Toe out to the side as the opposite heel swivels in, forming a V shape with your feet.",
+      "video": {
+        "id": "LskS5V_KkwA",
+        "start": 0,
+        "title": "Apple Jacks tutorial"
+      }
+    },
+    {
+      "id": "wizard-step",
+      "name": "Wizard Step",
+      "description": "Two lock steps in alternating directions - cross behind with one foot, then the other foot locks behind the opposite way.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 2640,
+        "title": "Gail Eaton - Wizard Steps"
+      }
+    },
+    {
+      "id": "lindy-step",
+      "name": "Lindy Step",
+      "description": "A side shuffle (chasse) with a back cross rock step added at the end.",
+      "video": {
+        "id": "SkbY7oMuuMk",
+        "start": 0,
+        "title": "Lindy Step demonstration"
+      }
+    },
+    {
+      "id": "twinkle-step",
+      "name": "Twinkle Step",
+      "description": "Cross one foot over the other, step the other foot to the side, step the first foot together - a 3-count waltz-style step.",
+      "video": {
+        "id": "-wCHKq_yI0I",
+        "start": 0,
+        "title": "Twinkle Step tutorial"
+      }
+    },
+    {
+      "id": "weave",
+      "name": "Weave",
+      "description": "Cross one foot in front, step the other foot to the side, cross the first foot behind, step the other foot to the side. 4 counts of traveling crosses.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 1500,
+        "title": "Gail Eaton - Weave"
+      },
+      "diagram": "diagrams/weave.svg"
+    },
+    {
+      "id": "pivot-turn",
+      "name": "Pivot Turn (Step Turn)",
+      "description": "Step forward, then pivot on the balls of both feet to turn 1/4 or 1/2, shifting weight to the other foot.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 960,
+        "title": "Gail Eaton - Pivot Turn"
+      },
+      "diagram": "diagrams/pivot-turn.svg"
+    },
+    {
+      "id": "scuff-brush",
+      "name": "Scuff / Brush",
+      "description": "Lift your foot and brush the ball or heel across the floor as you kick it forward.",
+      "video": {
+        "id": "8vXTNPTeuk4",
+        "start": 0,
+        "title": "Learn the Brush and the Scuff"
+      }
+    },
+    {
+      "id": "stomp",
+      "name": "Stomp",
+      "description": "A single, deliberate foot stomp in place, heel hitting first for a satisfying thud.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 420,
+        "title": "Gail Eaton - Stomp"
+      },
+      "diagram": "diagrams/stomp.svg"
+    },
+    {
+      "id": "touch-point",
+      "name": "Touch / Point",
+      "description": "Touch the toe of one foot to the floor beside or in front of the other, without shifting your weight onto it.",
+      "video": {
+        "id": "H20RCfiYk_M",
+        "start": 0,
+        "title": "Step vs Touch/Tap"
+      },
+      "diagram": "diagrams/touch-point.svg"
+    },
+    {
+      "id": "hip-bump",
+      "name": "Hip Bump",
+      "description": "Shift weight onto one foot and bump that hip out and back to the beat.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 1980,
+        "title": "Gail Eaton - Hip Bumps"
+      },
+      "diagram": "diagrams/hip-bump.svg"
+    },
+    {
+      "id": "heel-grind",
+      "name": "Heel Grind",
+      "description": "Put your heel out in front, toe turned in, then grind/turn the toe out to the side.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 690,
+        "title": "Gail Eaton - Heel Grind"
+      }
+    },
+    {
+      "id": "side-rock",
+      "name": "Side Rock",
+      "description": "Like a rock step, but sideways: step to the side and shift weight back to the other foot.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 840,
+        "title": "Gail Eaton - Side Rock"
+      }
+    },
+    {
+      "id": "shuffle-triple",
+      "name": "Shuffle / Triple Step",
+      "description": "Three quick steps across two beats of music - step, quick step together, step again (1-&-2).",
+      "video": {
+        "id": "M_6YIP38MSI",
+        "start": 0,
+        "title": "Patti Leathers - Understanding Triples"
+      },
+      "diagram": "diagrams/shuffle-triple.svg"
+    },
+    {
+      "id": "hitch",
+      "name": "Hitch",
+      "description": "Pull one knee up, usually right after a forward or backward walking step.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 360,
+        "title": "Gail Eaton - Hitch"
+      }
+    },
+    {
+      "id": "chug",
+      "name": "Chug",
+      "description": "A small hop forward on one leg while lifting the other knee up.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 390,
+        "title": "Gail Eaton - Chug"
+      }
+    },
+    {
+      "id": "step",
+      "name": "Step",
+      "description": "Place your foot on the floor and transfer your weight onto it - the most basic building block of every dance.",
+      "video": {
+        "id": "H20RCfiYk_M",
+        "start": 0,
+        "title": "How to do a basic Step"
+      }
+    },
+    {
+      "id": "swivel",
+      "name": "Swivel",
+      "description": "With weight on the balls of both feet, swing your heels out, then lean back and swing your toes out.",
+      "video": {
+        "id": "nHUpmmHRZr8",
+        "start": 2040,
+        "title": "Gail Eaton - Swivel"
+      }
+    },
+    {
+      "id": "cross-shuffle",
+      "name": "Cross Shuffle",
+      "description": "A triple step where you cross one foot in front of the other, quick-step the other foot, then cross again.",
+      "video": {
+        "id": "M_6YIP38MSI",
+        "start": 60,
+        "title": "Patti Leathers - Cross Shuffle"
+      },
+      "diagram": "diagrams/cross-shuffle.svg"
+    },
+    {
+      "id": "arm-clap",
+      "name": "Clap",
+      "description": "A single clap of the hands on the beat - common as a punctuation move at the end of a phrase.",
+      "video": {
+        "id": "BOyITcqCrLI",
+        "start": 0,
+        "title": "Patti Leathers - 10 Common Line Dance Steps"
+      }
+    },
+    {
+      "id": "ymca-arms",
+      "name": "YMCA Letter Arms",
+      "description": "Raise your arms overhead and shape each letter of Y-M-C-A in turn, swapping arm positions on each word.",
+      "video": {
+        "id": "Cap4oaly-WE",
+        "start": 0,
+        "title": "YMCA by The Village People - Full Dance Tutorial"
+      }
+    },
+    {
+      "id": "macarena-arms",
+      "name": "Macarena Arm Sequence",
+      "description": "A 16-count loop of arm positions (palms down, palms up, hands to opposite shoulders, hands behind head, hands to hips) followed by a hip shimmy and a quarter turn jump.",
+      "video": {
+        "id": "JJ3oJLQSufY",
+        "start": 0,
+        "title": "How To Do the Macarena - Ultimate Beginner Step By Step Tutorial"
+      }
+    },
+    {
+      "id": "jump-turn",
+      "name": "Jump Turn (Quarter Turn Hop)",
+      "description": "A small hop that rotates your body a quarter turn to face the new wall before the sequence repeats.",
+      "video": {
+        "id": "JJ3oJLQSufY",
+        "start": 90,
+        "title": "Macarena - the closing hip turn"
+      }
     }
   ]
 }
